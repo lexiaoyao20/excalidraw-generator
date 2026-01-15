@@ -1,0 +1,22 @@
+{
+  "name": "excalidraw-generator",
+  "owner": {
+    "name": "lexiaoyao20",
+    "email": "lexiaoyao20@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Professional Excalidraw diagram generation skills for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "excalidraw-generator",
+      "description": "Generate professional Excalidraw diagrams (flowcharts, architecture, UML, mind maps) from natural language descriptions",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/excalidraw-generator"
+      ]
+    }
+  ]
+}
